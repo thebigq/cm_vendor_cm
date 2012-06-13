@@ -130,6 +130,17 @@ then
         [ $QUIET ] || echo "Crushing $x"
         optimize_png $x
     done
+    for dpi in \
+            xhdpi xhdpi-v9 xhdpi-v11 \
+            xlarge xlarge-nodpi large large-nodpi \
+            sw768dp \
+            sw600dp sw600dp-nodpi sw600dp-mdpi sw600dp-hdpi sw600dp-xhdpi \
+            sw600dp-land sw600dp-port \
+            sw580dp sw580dp-nodpi sw580dp-mdpi; do
+        for restype in layout drawable mipmap menu xml; do
+            rm -rf res/$restype-$dpi
+        done
+    done
     cp $BASE/$1 $BASE/$1.old
 
     [ $QUIET ] || echo "Repacking apk.."

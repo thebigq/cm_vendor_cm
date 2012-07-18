@@ -32,6 +32,8 @@ if [ "$APKCERTS" = "" ];
 then
     if [ "$TARGET_BUILD_VARIANT" = "userdebug" ]; then
        TARGET_BUILD_VARIANT="eng"
+    elif [ "$TARGET_BUILD_VARIANT" = "user" ]; then
+       TARGET_BUILD_VARIANT="eng"
     fi
 
     APKCERTS=$OUT/obj/PACKAGING/target_files_intermediates/$TARGET_PRODUCT-target_files-$TARGET_BUILD_VARIANT.$USER/META/apkcerts.txt
@@ -127,6 +129,17 @@ then
     do
         [ $QUIET ] || echo "Crushing $x"
         optimize_png $x
+    done
+    for dpi in \
+            xhdpi xhdpi-v9 xhdpi-v11 \
+            xlarge xlarge-nodpi large large-nodpi \
+            sw768dp \
+            sw600dp sw600dp-nodpi sw600dp-mdpi sw600dp-hdpi sw600dp-xhdpi \
+            sw600dp-land sw600dp-port \
+            sw580dp sw580dp-nodpi sw580dp-mdpi; do
+        for restype in layout drawable mipmap menu xml; do
+            rm -rf res/$restype-$dpi
+        done
     done
     cp $BASE/$1 $BASE/$1.old
 

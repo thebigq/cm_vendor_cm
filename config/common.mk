@@ -50,6 +50,9 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/compcache:system/bin/compcache \
     vendor/cm/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
 
+PRODUCT_COPY_FILES +=  \
+	vendor/cm/prebuilt/common/apps/Superuser.apk:system/app/Superuser.apk
+
 # Bring in camera effects
 PRODUCT_COPY_FILES +=  \
     vendor/cm/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
@@ -76,8 +79,6 @@ PRODUCT_PACKAGES += \
     Development \
     LatinIME \
     SpareParts \
-    Superuser \
-    Superuser.apk \
     su
 
 # Optional CM packages
@@ -116,7 +117,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
 PRODUCT_VERSION_MAJOR = 9
 PRODUCT_VERSION_MINOR = 0
-PRODUCT_VERSION_MAINTENANCE = 0-RC2
+PRODUCT_VERSION_MAINTENANCE = 0
 
 # Set CM_BUILDTYPE
 ifdef CM_NIGHTLY

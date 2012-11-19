@@ -3,9 +3,11 @@ CyanogenMod
 
 Maintainers (CyanogenMod 10):
 ------------
+* __Acer A700:__ pawitp
 * __Asus EeePad Transformer (TF101):__ Bumble-Bee, EnJens
 * __Asus EeePad Transformer Prime (TF201):__ Bumble-Bee, EnJens
 * __Asus EeePad Transformer Pad TF300T:__ xplodwild
+* __B&N NookColor (encore):__ eyeballer, fattire, keyodi, krylon360, sluo (NookieDevs)
 * __Google Galaxy Nexus:__ , bekit, Bumble-Bee, burnsra, KalimochoAz
 * __Google Nexus S:__ burnsra, KalimochoAz
 * __Google Nexus 7:__ 
@@ -14,14 +16,23 @@ Maintainers (CyanogenMod 10):
 * __HTC One XL:__ h8rift, intervigil
 * __LG Optimus LTE (P930) / LG Nitro HD {P935):__ arcee
 * __LG Optimus LTE (SK Telecom) (SU640):__ arcee
+* __Motorola Xoom (WiFi):__ bazar, SteadyHawkin, TDR (Team Rogue)
+* __Motorola Xoom 3G (UMTS):__ bazar, SteadyHawkin, TDR (Team Rogue)
+* __Motorola Xoom 4G LTE (Verizon):__ bazar, SteadyHawkin, TDR (Team Rogue)
 * __Samsung Captivate (SGH-I896 / SGH-I897):__ pawitp
 * __Samsung Epic 4G (SPH-D700):__ bbelos, Decad3nce, mkasick, UberPinguin (Team Epic)
 * __Samsung Fascinate / Mesmerize (SCH-I500):__ jt1134, sbrissen
+* __Samsung Galaxy Note (GT-N7000):__ Entropy512, Espenfjo
+* __Samsung Galaxy Note II (GT-N7100):__ nebkat
+* __Samsung Galaxy Note 10.1 (GT-N80XX):__ Entropy512, Espenfjo
 * __Samsung Galaxy S Blaze 4G (SGH-T769):__ UberPinguin
 * __Samsung Galaxy S (GT-I9000):__ pawitp
 * __Samsung Galaxy S (GT-I9000B):__ helvio88
-* __Samsung Galaxy S II (GT-I9100G):__ codeworkx
+* __Samsung Galaxy S II (AT&T) (SGH-I777):__ Entropy512
+* __Samsung Galaxy S II (intl) (GT-I9100):__ codeworkx, Espenfjo
+* __Samsung Galaxy S II (intl) (GT-I9100G):__ codeworkx
 * __Samsung Galaxy S III (AT&T) (SGH-I747):__ cyanogen, Unhelpful
+* __Samsung Galaxy S III (intl) (GT-I9300):__ xplodwild, codeworkx
 * __Samsung Galaxy S III (Sprint) (SPH-L710):__ mkasick, noobnl (Team Epic)
 * __Samsung Galaxy S III (T-Mobile) (SGH-T999):__ cyanogen
 * __Samsung Galaxy S III (US Cellular) (SCH-R530):__ noobnl
@@ -31,6 +42,7 @@ Maintainers (CyanogenMod 10):
 * __Samsung Galaxy Tab 2 7" (GT-P31xx):__ codeworkx
 * __Samsung Galaxy Tab 2 10.1" (GT-P51xx):__ codeworkx
 * __Samsung Vibrant (SGH-T959):__ FaultException
+* __Sony Xperia T (mint):__ jerpelea, Kali- (FreeXperia team), codeworkx, Lalit Maganti
 
 Translators:
 ------------
@@ -41,7 +53,7 @@ Translators:
 * __Finnish:__ Antti Leukkunen
 * __French:__ Sébastien Vaucher, David Girault, Tanguy Pruvot
 * __German:__ Matthias Büchner, Alexander Hofbauer, Sebastian K., Ricco Thiel, Andreas Böhm, Kim Lê
-* __Italian:__ Francesco Foresta, Moreno Pojer, Eugenio Ziliotto, Giulio Cervera
+* __Italian:__ Francesco Foresta, Moreno Pojer, Eugenio Ziliotto, Giulio Cervera, Mauro Bazzano
 * __Japanese:__ Takuo Kitame
 * __Korean:__ Inseok Lee
 * __Polish:__ Maciej Rozbicki

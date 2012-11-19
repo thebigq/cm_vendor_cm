@@ -130,7 +130,6 @@ then
         optimize_png $x
     done
     for dpi in \
-            xhdpi xhdpi-v9 xhdpi-v11 \
             xlarge xlarge-nodpi large large-nodpi \
             sw768dp \
             sw600dp sw600dp-nodpi sw600dp-mdpi sw600dp-hdpi sw600dp-xhdpi \

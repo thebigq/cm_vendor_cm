@@ -9,6 +9,7 @@ Maintainers (CyanogenMod 9):
 * __Google Galaxy Nexus:__ , bekit, Bumble-Bee, burnsra, KalimochoAz
 * __Google Nexus S:__ burnsra, KalimochoAz
 * __HP Touchpad:__ dalingrin, green--, jcsullins
+* __HTC Doubleshot:__ kornyone, tbalden
 * __HTC Sensation:__ cretin45, intervigil
 * __HTC One S:__ xkonni, intervigil
 * __HTC One X:__ mdeejay, tbalden
@@ -53,8 +54,9 @@ Maintainers (CyanogenMod 9):
 * __Sony Ericsson Xperia Play (GSM) (R800i):__ Bin4ry, defer, jerpelea (FreeXperia team)
 * __Sony Ericsson Xperia Pro (MK16i):__ Bin4ry, defer, jerpelea (FreeXperia team)
 * __Sony Ericsson Xperia Ray (ST18i):__ Bin4ry, defer, jerpelea (FreeXperia team)
-* __Sony Xperia Acro S (LT26w):__ Bin4ry, jerpelea, Kali-
-* __Sony Xperia S (LT26i):__ Bin4ry, defer, jerpelea, Kali-
+* __Sony Xperia Acro S (LT26w):__ Bin4ry, jerpelea, Kali- (FreeXperia team)
+* __Sony Xperia S (LT26i):__ Bin4ry, defer, jerpelea, Kali- (FreeXperia team)
+* __Sony Xperia ion (LT28h):__ jerpelea, Kali- (FreeXperia team)
 
 Translators:
 ------------
@@ -76,3 +78,4 @@ Translators:
 * __Spanish:__ PeRiJeY, KalimochoAz, Chuckycrx
 * __Swedish:__ Patrik Kullman
 * __Traditional Chinese:__ Ladios Jonquil
+* __Turkish:__ Ethem Evlice (androidmeda)
